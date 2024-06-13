@@ -1,0 +1,12 @@
+services:
+  streamingapi:
+    image: streaming_api-${VERSION}
+    container_name: streamingapi
+    build:
+      context: .
+      args:
+          CLUSTER: "${US_2}"
+    restart: always
+    volumes:
+      - .:/streamingapi/
+

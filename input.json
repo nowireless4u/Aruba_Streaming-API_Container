@@ -1,0 +1,24 @@
+{
+  "customers": {
+    "streaming_audit": {
+      "username": "email@email.com",
+      "wsskey": "replace_with_streaming_key",
+      "topic": "audit"
+    },
+    "streaming_apprf": {
+      "username": "email@email.com",
+      "wsskey": "replace_with_streaming_key",
+      "topic": "apprf"
+    },
+    "streaming_monitoring": {
+      "username": "email@email.com",
+      "wsskey": "replace_with_streaming_key",
+      "topic": "monitoring"
+    },
+    "streaming_security": {
+      "username": "email@email.com",
+      "wsskey": "replace_with_streaming_key",
+      "topic": "security"
+    }
+  }
+}
