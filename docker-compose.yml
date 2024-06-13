@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-          CLUSTER: "${US_2}"
+          CLUSTER: "${CHANGEME}"
     restart: always
     volumes:
       - .:/streamingapi/
